@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="App">
       <div>Hi</div>
-      <button onClick={() => setNumber(number + 1)}>{number}</button>
+      <button onClick={() => setNumber(number + 2)}>{number}</button>
       <button onClick={() => setAnumber(aNumber - 1)}>{aNumber}</button>
     </div>
   );
